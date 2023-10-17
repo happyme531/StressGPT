@@ -1,0 +1,31 @@
+{
+  "name": "stressgpt",
+  "version": "0.1.0",
+  "description": "Small tool to stress test your ChatGPT API endpoint.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happyme531/StressGPT"
+  },
+  "main": "main.js",
+  "types": "main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "prepublish": "tsc",
+  "author": "happyme531",
+  "license": "MIT",
+  "bin": {
+    "stressgpt": "./main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "lorem-ipsum": "^2.0.8",
+    "openai": "^4.12.1",
+    "tracer": "^1.3.0",
+    "ts-node": "^10.9.1"
+  }
+}
